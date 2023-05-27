@@ -39,7 +39,7 @@ function App() {
 
   const fetchStores = async () => {
     try {
-      const response = await fetch('http://localhost:8080/api/v1/stores', {
+      const response = await fetch('https://delivery-app-vujf.onrender.com/api/v1/stores', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -72,7 +72,7 @@ function App() {
     e.preventDefault();
 
       try {
-        const response = await fetch('http://localhost:8080/api/v1/orders', {
+        const response = await fetch('https://delivery-app-vujf.onrender.com/api/v1/orders', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
