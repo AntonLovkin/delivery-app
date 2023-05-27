@@ -81,7 +81,7 @@ function App() {
         });
 
         await response.json();
-      
+        alert(JSON.stringify({order: cartItems, formData}));
         setCartItems([]);
         setFormData(initialFormData)
 
