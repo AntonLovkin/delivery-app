@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color:inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-style: normal;
+
+    background-color: #E5E5E5;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem;
+  background-color: wheat
+  ;
+}
+
+.nav{
+  width: 100vw;
+
+  padding: 2rem;
+  background-color: #fff;
+  ;
+}
+
+.stores-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cart {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 2;
+}
+
+.cart_item {
+  min-width: 200px;
+  padding: 10px;
+
+  font-size: 1rem;
+  border: 2px solid inherit;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: inset hoff voff blur #000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.totalPrice{
+  max-width: 200px;
+  
+  display: block;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #fff;
+}

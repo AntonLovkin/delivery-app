@@ -1,0 +1,334 @@
+[
+  {
+    "title": "KFC",
+    "meals": [
+      { "name": "Meal 1", "price": 10, "id": "q3472" },
+      { "name": "Meal 2", "price": 12, "id": "q5738" },
+      { "name": "Meal 3", "price": 8, "id": "q8204" },
+      { "name": "Meal 4", "price": 9, "id": "q6291" },
+      { "name": "Meal 5", "price": 11, "id": "q9415" },
+      { "name": "Meal 6", "price": 10, "id": "q2387" },
+      { "name": "Meal 7", "price": 7, "id": "q4916" },
+      { "name": "Meal 8", "price": 9, "id": "q1845" },
+      { "name": "Meal 9", "price": 8, "id": "q7589" },
+      { "name": "Meal 10", "price": 11, "id": "q3540" }
+    ]
+  },
+  {
+    "title": "McDonald's",
+    "meals": [
+      { "name": "Meal 1", "price": 9, "id": "q9021" },
+      { "name": "Meal 2", "price": 11, "id": "q2678" },
+      { "name": "Meal 3", "price": 8, "id": "q4315" },
+      { "name": "Meal 4", "price": 10, "id": "q6542" },
+      { "name": "Meal 5", "price": 12, "id": "q8579" },
+      { "name": "Meal 6", "price": 9, "id": "q5196" },
+      { "name": "Meal 7", "price": 8, "id": "q7843" },
+      { "name": "Meal 8", "price": 10, "id": "q3780" },
+      { "name": "Meal 9", "price": 7, "id": "q9865" },
+      { "name": "Meal 10", "price": 11, "id": "q1432" }
+    ]
+  },
+  {
+    "title": "Burger King",
+    "meals": [
+      { "name": "Meal 1", "price": 8, "id": "q2564" },
+      { "name": "Meal 2", "price": 10, "id": "q7390" },
+      { "name": "Meal 3", "price": 9, "id": "q4892" },
+      { "name": "Meal 4", "price": 12, "id": "q9647" },
+      { "name": "Meal 5", "price": 8, "id": "q6219" },
+      { "name": "Meal 6", "price": 11, "id": "q2047" },
+      { "name": "Meal 7", "price": 9, "id": "q8536" },
+      {
+        "name": "Meal 8",
+        "price": 11,
+        "id": "q3012"
+      },
+      {
+        "name": "Meal 9",
+        "price": 7,
+        "id": "q5806"
+      },
+      {
+        "name": "Meal 10",
+        "price": 10,
+        "id": "q6971"
+      }
+    ]
+  },
+  {
+    "title": "Subway",
+    "meals": [
+      {
+        "name": "Meal 1",
+        "price": 7,
+        "id": "q7182"
+      },
+      {
+        "name": "Meal 2",
+        "price": 9,
+        "id": "q5934"
+      },
+      {
+        "name": "Meal 3",
+        "price": 8,
+        "id": "q4215"
+      },
+      {
+        "name": "Meal 4",
+        "price": 10,
+        "id": "q8402"
+      },
+      {
+        "name": "Meal 5",
+        "price": 11,
+        "id": "q1593"
+      },
+      {
+        "name": "Meal 6",
+        "price": 9,
+        "id": "q2936"
+      },
+      {
+        "name": "Meal 7",
+        "price": 8,
+        "id": "q5264"
+      },
+      {
+        "name": "Meal 8",
+        "price": 10,
+        "id": "q3492"
+      },
+      {
+        "name": "Meal 9",
+        "price": 7,
+        "id": "q6725"
+      },
+      {
+        "name": "Meal 10",
+        "price": 11,
+        "id": "q9132"
+      }
+    ]
+  },
+  {
+    "title": "Pizza Hut",
+    "meals": [
+      {
+        "name": "Meal 1",
+        "price": 12,
+        "id": "q7643"
+      },
+      {
+        "name": "Meal 2",
+        "price": 14,
+        "id": "q4298"
+      },
+      {
+        "name": "Meal 3",
+        "price": 11,
+        "id": "q2836"
+      },
+      {
+        "name": "Meal 4",
+        "price": 13,
+        "id": "q6571"
+      },
+      {
+        "name": "Meal 5",
+        "price": 15,
+        "id": "q9428"
+      },
+      {
+        "name": "Meal 6",
+        "price": 12,
+        "id": "q5287"
+      },
+      {
+        "name": "Meal 7",
+        "price": 11,
+        "id": "q3764"
+      },
+      {
+        "name": "Meal 8",
+        "price": 13,
+        "id": "q8452"
+      },
+      {
+        "name": "Meal 9",
+        "price": 10,
+        "id": "q1946"
+      },
+      {
+        "name": "Meal 10",
+        "price": 14,
+        "id": "q6073"
+      }
+    ]
+  },
+  {
+    "title": "Starbucks",
+    "meals": [
+      {
+        "name": "Meal 1",
+        "price": 6,
+        "id": "q2856"
+      },
+      {
+        "name": "Meal 2",
+        "price": 8,
+        "id": "q6519"
+      },
+      {
+        "name": "Meal 3",
+        "price": 7,
+        "id": "q9564"
+      },
+      {
+        "name": "Meal 4",
+        "price": 9,
+        "id": "q7028"
+      },
+      {
+        "name": "Meal 5",
+        "price": 10,
+        "id": "q4085"
+      },
+      {
+        "name": "Meal 6",
+        "price": 7,
+        "id": "q7142"
+      },
+      {
+        "name": "Meal 7",
+        "price": 6,
+        "id": "q5439"
+      },
+      {
+        "name": "Meal 8",
+        "price": 8,
+        "id": "q8691"
+      },
+      {
+        "name": "Meal 9",
+        "price": 7,
+        "id": "q2976"
+      },
+      {
+        "name": "Meal 10",
+        "price": 9,
+        "id": "q9832"
+      }
+    ]
+  },
+  {
+    "title": "Taco Bell",
+    "meals": [
+      {
+        "name": "Meal 1",
+        "price": 5,
+        "id": "q9028"
+      },
+      {
+        "name": "Meal 2",
+        "price": 7,
+        "id": "q2569"
+      },
+      {
+        "name": "Meal 3",
+        "price": 6,
+        "id": "q6201"
+      },
+      {
+        "name": "Meal 4",
+        "price": 8,
+        "id": "q3956"
+      },
+      {
+        "name": "Meal 5",
+        "price": 9,
+        "id": "q7843"
+      },
+      {
+        "name": "Meal 6",
+        "price": 6,
+        "id": "q5198"
+      },
+      {
+        "name": "Meal 7",
+        "price": 5,
+        "id": "q8371"
+      },
+      {
+        "name": "Meal 8",
+        "price": 7,
+        "id": "q1632"
+      },
+      {
+        "name": "Meal 9",
+        "price": 6,
+        "id": "q4637"
+      },
+      {
+        "name": "Meal 10",
+        "price": 8,
+        "id": "q9782"
+      }
+    ]
+  },
+  {
+    "title": "Wendy's",
+    "meals": [
+      {
+        "name": "Meal 1",
+        "price": 8,
+        "id": "q5241"
+      },
+      {
+        "name": "Meal 2",
+        "price": 10,
+        "id": "q9124"
+      },
+      {
+        "name": "Meal 3",
+        "price": 9,
+        "id": "q2785"
+      },
+      {
+        "name": "Meal 4",
+        "price": 11,
+        "id": "q7361"
+      },
+      {
+        "name": "Meal 5",
+        "price": 7,
+        "id": "q6092"
+      },
+      {
+        "name": "Meal 6",
+        "price": 10,
+        "id": "q8473"
+      },
+      {
+        "name": "Meal 7",
+        "price": 9,
+        "id": "q5279"
+      },
+      {
+        "name": "Meal 8",
+        "price": 11,
+        "id": "q3562"
+      },
+      {
+        "name": "Meal 9",
+        "price": 8,
+        "id": "q6829"
+      },
+      {
+        "name": "Meal 10",
+        "price": 10,
+        "id": "q9543"
+      }
+    ]
+  }
+]
