@@ -19,7 +19,8 @@ function HomePage({ state, addCartItem }) {
 
     return (
         <>
-            <nav className='nav'>
+        {store?.length > 0 
+         && <nav className='nav'>
                 <ul className='stores-list'>
                     {state.map(store =>
                         <li key={store._id}>
@@ -34,7 +35,7 @@ function HomePage({ state, addCartItem }) {
                         </li>)
                     }
                 </ul>
-            </nav>
+            </nav>}
             {path && <Routes>
                 <Route
                     path={`/${path}`}
