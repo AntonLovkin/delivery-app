@@ -43,8 +43,10 @@ body {
 }
 
 .header{
+   min-width: 100vw;
+   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   padding: 2rem;
   background-color: wheat
@@ -111,4 +113,25 @@ body {
   margin-right: auto;
 
   background-color: #fff;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid wheat;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

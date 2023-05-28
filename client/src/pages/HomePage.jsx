@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 
-import { Shop } from '../components';
+import { Loader, Shop } from '../components';
     
 function HomePage({ state, addCartItem }) {
    
@@ -19,8 +19,9 @@ function HomePage({ state, addCartItem }) {
 
     return (
         <>
-        {store?.length > 0 
-         && <nav className='nav'>
+            {state?.length === 0
+                ? <Loader />
+                : <nav className='nav'>
                 <ul className='stores-list'>
                     {state.map(store =>
                         <li key={store._id}>

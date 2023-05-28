@@ -56,7 +56,9 @@ function App() {
   };
   
   useEffect(() => {
-    fetchStores();
+    setTimeout(() => {
+      fetchStores();
+    }, 2000);
   }, []);
 
   const initialFormData = {
